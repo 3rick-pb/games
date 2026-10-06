@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { InfoPage } from "@/components/content/info-page";
+export const metadata: Metadata = { title: "Privacidad" };
+export default function PrivacyPage() { return <InfoPage title="Privacidad por defecto" lead="Las herramientas básicas procesan tus datos en el navegador cuando es técnicamente posible."><h2>Datos funcionales</h2><p>No enviamos automáticamente los valores que escribes en calculadoras, conversiones, temporizadores o generadores de contraseñas. Las contraseñas se generan localmente y no se almacenan.</p><h2>Analítica y publicidad</h2><p>La analítica y la publicidad no están activadas en esta versión. Si se incorporan, se describirán con claridad, se separarán de los datos funcionales y se solicitará consentimiento cuando corresponda.</p><h2>Contacto</h2><p>Esta política se completará con la identidad y el canal de contacto del operador antes del lanzamiento público.</p></InfoPage>; }

@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+.vercel/
+*.tsbuildinfo
+
+# Herramientas locales de Codex y otros asistentes; no pertenecen al producto desplegable.
+.agents/
+.claude/
+.codex/
+skills-lock.json

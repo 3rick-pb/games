@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { InfoPage } from "@/components/content/info-page";
+export const metadata: Metadata = { title: "Términos" };
+export default function TermsPage() { return <InfoPage title="Términos de uso" lead="Las herramientas se ofrecen para uso informativo y cotidiano."><h2>Uso responsable</h2><p>Puedes utilizar las herramientas para fines lícitos y personales o profesionales. No debes intentar interferir con el funcionamiento, la seguridad o la disponibilidad del servicio.</p><h2>Resultados</h2><p>Verifica los resultados antes de tomar decisiones relevantes. Las funciones financieras son educativas y no constituyen asesoramiento financiero, fiscal, legal ni profesional.</p><h2>Actualizaciones</h2><p>Estos términos se completarán con los datos del operador y la fecha de vigencia antes de un lanzamiento público.</p></InfoPage>; }
